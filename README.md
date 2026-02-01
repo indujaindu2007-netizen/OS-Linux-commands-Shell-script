@@ -356,6 +356,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+<img width="327" height="171" alt="Screenshot from 2026-02-01 12-04-07" src="https://github.com/user-attachments/assets/70e7a0e4-dba2-49f3-b5ff-ed651c756bf5" />
 
 
 cat > file22
@@ -369,6 +370,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+<img width="327" height="165" alt="Screenshot from 2026-02-01 12-07-05" src="https://github.com/user-attachments/assets/6fb9944a-cb3f-494b-96fc-040d8c93a953" />
 
 
 
@@ -376,6 +378,7 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+<img width="522" height="226" alt="Screenshot from 2026-02-01 12-08-19" src="https://github.com/user-attachments/assets/ff13a10f-ecae-4766-8a65-241c9cc0a823" />
 
 cat < urllist.txt
 ```
@@ -392,17 +395,20 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+<img width="510" height="115" alt="Screenshot from 2026-02-01 12-12-00" src="https://github.com/user-attachments/assets/50f01f8e-f6e3-4e74-9be0-8849fc1f6265" />
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+<img width="510" height="115" alt="Screenshot from 2026-02-01 12-11-31" src="https://github.com/user-attachments/assets/9621c099-b366-4d3d-bd09-4881d1de5900" />
 
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+<img width="964" height="996" alt="Screenshot from 2026-02-01 14-18-43" src="https://github.com/user-attachments/assets/ec377b00-0994-4cf6-9758-1234e62a7e34" />
 
 
 mkdir backupdir
@@ -413,18 +419,23 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+<img width="964" height="996" alt="Screenshot from 2026-02-01 14-18-43" src="https://github.com/user-attachments/assets/ea93b212-b2b8-4786-9fb4-87d8d6732aae" />
 
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="1850" height="986" alt="Screenshot from 2026-02-01 14-20-25" src="https://github.com/user-attachments/assets/d8d7051a-5562-43b8-a4cf-e714203c2b40" />
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ <img width="523" height="65" alt="Screenshot from 2026-02-01 22-48-29" src="https://github.com/user-attachments/assets/978c0c41-c88a-4bc6-b5ef-5385bfb2b8ed" />
+
 gunzip backup.tar.gz
 ## OUTPUT
+<img width="807" height="292" alt="Screenshot from 2026-02-01 22-58-01" src="https://github.com/user-attachments/assets/c3bac62c-da2e-4ca9-a1fa-e5250a1446ca" />
+
 
  
 # Shell Script
@@ -432,7 +443,7 @@ gunzip backup.tar.gz
 echo '#!/bin/sh' > my-script.sh
 echo 'echo Hello World‘; exit 0 >> my-script.sh
 ```
-chmod 755 my-script.sh
+
 ./my-script.sh
 ## OUTPUT
 
@@ -447,6 +458,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="531" height="98" alt="Screenshot from 2026-02-01 23-20-22" src="https://github.com/user-attachments/assets/eabf9f86-f9a8-4a1b-85f3-bbfc21ded67d" />
 
 
 cat < scriptest.sh 
@@ -485,23 +497,27 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="499" height="150" alt="Screenshot from 2026-02-01 23-25-09" src="https://github.com/user-attachments/assets/51d1fa4f-f3b4-48af-b6e5-aacf0b6ed44e" />
 
  
 ls file1
 ## OUTPUT
+<img width="496" height="80" alt="Screenshot from 2026-02-01 23-25-50" src="https://github.com/user-attachments/assets/9f255044-d1b1-4d29-b909-f7bf59f23302" />
 
 echo $?
 ## OUTPUT 
 ./one
 bash: ./one: Permission denied
- 
+ <img width="496" height="80" alt="Screenshot from 2026-02-01 23-27-53" src="https://github.com/user-attachments/assets/0e699410-eff3-4362-a001-47ef9d4c14c8" />
+
 echo $?
 ## OUTPUT 
- 
+<img width="441" height="52" alt="Screenshot from 2026-02-01 23-30-46" src="https://github.com/user-attachments/assets/b64cb2f1-3966-466f-8203-64aad7e3a4f2" />
+
 abcd
- 
 echo $?
  ## OUTPUT
+<img width="465" height="252" alt="Screenshot from 2026-02-01 23-31-14" src="https://github.com/user-attachments/assets/54b8e530-6b69-418c-abe1-ae99c5c6d70c" />
 
 
  
@@ -535,12 +551,16 @@ fi
 ```
 ##OUTPUT
 
+<img width="517" height="532" alt="Screenshot from 2026-02-01 23-32-37" src="https://github.com/user-attachments/assets/820c4fc6-60fd-4bc3-b98e-7d42753d1cb4" />
+
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+
+<img width="542" height="109" alt="Screenshot from 2026-02-01 23-33-39" src="https://github.com/user-attachments/assets/9a63de71-d804-47b2-bbb3-293feef09332" />
 
 
 # check file ownership
@@ -568,6 +588,9 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+
+<img width="623" height="517" alt="Screenshot from 2026-02-01 23-35-40" src="https://github.com/user-attachments/assets/1ec90e95-c898-44b3-8a65-db4306f96753" />
+
 
 # check if with file location
 cat>ifnested.sh 
