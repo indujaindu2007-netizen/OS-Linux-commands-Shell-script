@@ -560,7 +560,7 @@ chmod 755 strcomp.sh
 ./strcomp.sh 
 ## OUTPUT
 
-<img width="542" height="109" alt="Screenshot from 2026-02-01 23-33-39" src="https://github.com/user-attachments/assets/9a63de71-d804-47b2-bbb3-293feef09332" />
+<img width="654" height="326" alt="image" src="https://github.com/user-attachments/assets/d97951e2-09c6-4446-b715-a97694c38ab0" />
 
 
 # check file ownership
@@ -589,7 +589,8 @@ fi
 ./psswdperm.sh
 ## OUTPUT
 
-<img width="623" height="517" alt="Screenshot from 2026-02-01 23-35-40" src="https://github.com/user-attachments/assets/1ec90e95-c898-44b3-8a65-db4306f96753" />
+<img width="678" height="54" alt="image" src="https://github.com/user-attachments/assets/681347bd-0c7d-4033-93bd-defdbcaa89c1" />
+
 
 
 # check if with file location
