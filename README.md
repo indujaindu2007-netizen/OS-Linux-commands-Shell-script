@@ -147,11 +147,13 @@ cat newfile | grep -i -c "hello"
 
 grep -R ubuntu /etc
 ## OUTPUT
+<img width="1858" height="988" alt="image" src="https://github.com/user-attachments/assets/7bc68361-4ca3-4a77-8d12-9e89ca924c2b" />
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
+<img width="396" height="80" alt="image" src="https://github.com/user-attachments/assets/2c172c1d-99dd-4643-93b0-e99645319d01" />
 
 
 cat < newfile 
@@ -639,6 +641,7 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
+<img width="655" height="141" alt="image" src="https://github.com/user-attachments/assets/01ec9f2a-8dce-4b47-8034-e626d460a444" />
 
 
 # using numeric test comparisons
@@ -680,8 +683,12 @@ fi
 
 $ chmod 755 iftest.sh
  
-$ ./iftest.sh 
-##OUTPUT
+$ ./iftest.sh
+
+## OUTPUT
+
+<img width="655" height="141" alt="image" src="https://github.com/user-attachments/assets/2bc4b940-a353-460f-9319-364c2057051f" />
+
 
 # check if a file
 cat > ifnested.sh 
@@ -730,7 +737,9 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+## OUTPUT
+<img width="637" height="159" alt="image" src="https://github.com/user-attachments/assets/bfd02b75-b431-4cc9-b251-d05b8bf8c1ef" />
+ 
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -759,6 +768,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+<img width="652" height="121" alt="image" src="https://github.com/user-attachments/assets/aad038ea-a746-4313-b076-ad564ec70fcc" />
 
 
 # testing compound comparisons
@@ -775,6 +785,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="649" height="110" alt="image" src="https://github.com/user-attachments/assets/5a4b0ca8-b8cc-4799-806a-f507e34c257e" />
 
 # using the case command
 cat >casecheck.sh 
@@ -794,6 +805,8 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+## OUTPUT
+<img width="648" height="98" alt="image" src="https://github.com/user-attachments/assets/8be36ad6-3fbd-4a48-b578-7d4e8c2becd0" />
  
 cat > whiletest
 ```bash
@@ -809,6 +822,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+## OUTPUT
+<img width="495" height="290" alt="image" src="https://github.com/user-attachments/assets/51144698-9f37-4279-8511-f78b859e1f3d" />
+
  
  
 cat untiltest.sh 
@@ -822,6 +838,10 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
+./untiltest.sh
+## OUTPUT
+<img width="528" height="184" alt="image" src="https://github.com/user-attachments/assets/5b9dedf4-440d-4a2f-b66f-d96919a45648" />
+
  
  
  
