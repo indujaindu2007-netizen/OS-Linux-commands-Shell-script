@@ -856,7 +856,8 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+ <img width="661" height="247" alt="Screenshot from 2026-02-04 20-38-21" src="https://github.com/user-attachments/assets/72b6f1d4-e21e-4863-b663-49abae42c7ac" />
+
  
 cat forin2.sh 
 ```bash
@@ -906,6 +907,16 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+
+
+<img width="660" height="187" alt="image" src="https://github.com/user-attachments/assets/1ac80c80-81b3-4181-ac1e-50f1cffc33da" />
+
+<img width="652" height="257" alt="image" src="https://github.com/user-attachments/assets/1ed664d7-3936-41a7-bb2a-ca47a65a13ba" />
+
+<img width="458" height="202" alt="image" src="https://github.com/user-attachments/assets/c5f2bfe0-bfbf-4022-ac63-d266494cb25f" />
+
+
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
