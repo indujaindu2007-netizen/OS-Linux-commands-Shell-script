@@ -265,6 +265,7 @@ sed -n -e '3p' file23
 sed -n -e '$p' file23
 ## OUTPUT
 
+<img width="349" height="77" alt="image" src="https://github.com/user-attachments/assets/e42927bc-5423-4c02-873a-e2f1d7e7f457" />
 
 
 sed  -e 's/Ram/Sita/' file23
@@ -499,20 +500,27 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-<img width="499" height="150" alt="Screenshot from 2026-02-01 23-25-09" src="https://github.com/user-attachments/assets/51d1fa4f-f3b4-48af-b6e5-aacf0b6ed44e" />
 
- 
+<img width="615" height="399" alt="image" src="https://github.com/user-attachments/assets/9afa982d-4456-4e96-852e-7ce149a0cb11" />
+
+
 ls file1
 ## OUTPUT
 <img width="496" height="80" alt="Screenshot from 2026-02-01 23-25-50" src="https://github.com/user-attachments/assets/9f255044-d1b1-4d29-b909-f7bf59f23302" />
 
 echo $?
 ## OUTPUT 
+
+
 ./one
 bash: ./one: Permission denied
+
+
  <img width="496" height="80" alt="Screenshot from 2026-02-01 23-27-53" src="https://github.com/user-attachments/assets/0e699410-eff3-4362-a001-47ef9d4c14c8" />
 
 echo $?
+
+
 ## OUTPUT 
 <img width="441" height="52" alt="Screenshot from 2026-02-01 23-30-46" src="https://github.com/user-attachments/assets/b64cb2f1-3966-466f-8203-64aad7e3a4f2" />
 
@@ -856,6 +864,8 @@ done
  ```
  
 $ chmod 755 forin1.sh
+
+
  <img width="661" height="247" alt="Screenshot from 2026-02-04 20-38-21" src="https://github.com/user-attachments/assets/72b6f1d4-e21e-4863-b663-49abae42c7ac" />
 
  
